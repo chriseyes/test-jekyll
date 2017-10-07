@@ -11,7 +11,7 @@ description : premier site en jekyll
 Nouvelle page de test
 
 <ul>
-{% for page in site.pages %}
+{% for page in site.html_pages %}
 	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
